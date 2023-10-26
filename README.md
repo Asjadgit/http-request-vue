@@ -1,18 +1,21 @@
 # http-requests-vue
 
-## Project setup
+## Install vue setup globaly
 ```
-npm install
+npm -g i @vue/cli
 ```
-
-### Compiles and hot-reloads for development
+### Now Use this command
+```
+vue create project-name
+```
+#### Compiles and hot-reloads for development
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+##### Add axios library
 ```
-npm run build
+npm install axios
 ```
 
 ### Lints and fixes files
