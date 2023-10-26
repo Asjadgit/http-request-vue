@@ -1,15 +1,17 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!-- <UpdateRequest /> -->
+    <GetRequest />
+    <!-- <PostRequest /> -->
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+// import UpdateRequest from './components/UpdateRequest.vue';
+import GetRequest from './components/GetRequest.vue'
+// import PostRequest from './components/PostRequest.vue'
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    GetRequest
   }
 }
 </script>
